@@ -17,7 +17,6 @@
 		<!-- Phone Stuff -->
 		<link rel="stylesheet" type="text/css" href="assets/fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
 		<link rel="stylesheet" type="text/css" href="assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-		<link rel="stylesheet" type="text/css" href="assets/css/phone.css">
 
     <!-- FontAwesome JS -->
     <script defer src="assets/fontawesome/js/all.js"></script>
@@ -34,57 +33,9 @@
     <!-- Theme CSS -->  
     <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
     
+		<link rel="stylesheet" type="text/css" href="assets/css/dark.css">
 </head> 
-
-		<div id="contact-popup" class="container-contact100">
-		<div class="wrap-contact100">
-			<button class="close-popup" onclick="removeContact()">X</button>
-			<div class="contact100-form-title" style="background-image: url(assets/images/phone.jpg);">
-				<span class="contact100-form-title-1">
-					So you want my phone number?
-				</span>
-
-				<span class="contact100-form-title-2">
-					I can't publicly share my phone number, but if you need it you can hit me up with the form below and I will get in touch!
-				</span>
-			</div>
-
-			<form class="contact100-form validate-form" method="post">
-				<div class="wrap-input100 validate-input" data-validate="Name is required">
-					<span class="label-input100">Full Name:</span>
-					<input class="input100" type="text" name="name" placeholder="Enter full name">
-					<span class="focus-input100"></span>
-				</div>
-
-				<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
-					<span class="label-input100">Email:</span>
-					<input class="input100" type="text" name="email" placeholder="Enter email addess">
-					<span class="focus-input100"></span>
-				</div>
-
-				<div class="wrap-input100 validate-input" data-validate="Phone is required">
-					<span class="label-input100">Phone:</span>
-					<input class="input100" type="text" name="phone" placeholder="Enter phone number">
-					<span class="focus-input100"></span>
-				</div>
-
-				<div class="wrap-input100 validate-input" data-validate = "Message is required">
-					<span class="label-input100">Message:</span>
-					<textarea class="input100" name="reason" placeholder="Your Comment..."></textarea>
-					<span class="focus-input100"></span>
-				</div>
-
-				<div class="container-contact100-form-btn">
-					<button class="contact100-form-btn">
-						<span>
-							Submit
-							<i class="fa fa-long-arrow-alt-right m-l-7" aria-hidden="true"></i>
-						</span>
-					</button>
-				</div>
-			</form>
-		</div>
-	</div>
+<body>
 		<div id="main">
     <!-- ******HEADER****** --> 
     <header class="header">
@@ -98,7 +49,6 @@
                     <li class="list-inline-item"><a href="https://www.linkedin.com/in/yigitcolakoglu/"><i class="fab fa-linkedin-in"></i></a></li>
                     <li class="list-inline-item"><a href="https://github.com/yigitcolakoglu"><i class="fab fa-github-alt"></i></a></li>    
                     <li class="list-inline-item"><a href="https://medium.com/@yigitcolakoglu"><i class="fab fa-medium"></i></a></li>   
-                    <li class="list-inline-item"><a href="#" onclick="showContact()"><i class="fa fa-mobile"></i></a></li>   
                 </ul> 
             </div><!--//profile-->
             <a class="btn btn-cta-primary float-right" href="mailto:yigit@yigitcolakoglu.com" target="_blank"><i class="fas fa-paper-plane"></i> Contact Me</a>              
@@ -125,33 +75,22 @@
                                                
                             <div class="item featured text-center">
 															
-                                <h3 class="title mb-3"><a href="https://github.com/yigitcolakoglu/dotfiles" target="_blank">DotFiles</a></h3>
-                                <p class="summary">I released my dotfiles due to heavy request from my friends. Hope you have a great time using them :D</p>
+                                <h3 class="title mb-3"><a href="https://github.com/yigitcolakoglu/Metis" target="_blank">METIS</a></h3>
+                                <p class="summary">Metis is a web application that allows medical clinic owners to easily manage their appointments and their patients. It is primarily designed for use in Turkey, with several specific features. It is developed on the Spring Boot framework and uses MySQL and Redis as its data and session storage.</p>
 
                                 <div class="featured-image has-ribbon">
-                                    <a href="https://github.com/yigitcolakoglu/dotfiles" target="_blank">
-                                    <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/dotfiles.png" alt="dotfiles" />
+                                    <a href="https://github.com/yigitcolakoglu/Metis" target="_blank">
+                                    <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/metis.png" alt="Metis" />
                                     </a>
                                     <div class="ribbon">
-                                        <div class="text">i3</div>
+                                        <div class="text">Java</div>
                                     </div>
                                 </div>
                                     
                                 <div class="desc text-left">                                    
                                 </div><!--//desc-->         
-                                <a class="btn btn-cta-secondary" href="https://github.com/yigitcolakoglu/dotfiles" target="_blank"><i class="fas fa-thumbs-up"></i> Check it out!</a>                 
+                                <a class="btn btn-cta-secondary" href="https://github.com/yigitcolakoglu/Metis" target="_blank"><i class="fas fa-thumbs-up"></i> Check it out!</a>                 
                             </div><!--//item-->
-<!--                            <hr class="divider" />
-                            <div class="item row">
-                                <a class="col-md-4 col-12" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/coderpro-bootstrap-4-startup-template-for-software-projects/" target="_blank">
-                                <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project-1.png" alt="project name" />
-                                </a>
-                                <div class="desc col-md-8 col-12">
-                                    <h3 class="title"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/coderpro-bootstrap-4-startup-template-for-software-projects/" target="_blank">CoderPro - Boootstrap Startup Template For Software Projects</a></h3>
-                                    <p class="mb-2">You can put one of your secondary projects here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante dolor non turpis.</p>
-                                    <p><a class="more-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/coderpro-bootstrap-4-startup-template-for-software-projects/" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
-                                </div>                          
-														</div>-->                        
                         </div><!--//content-->  
                     </div><!--//section-inner-->                
                 </section><!--//section-->
@@ -163,28 +102,53 @@
 
 									      <div class="item">
 									      <h3 class="title">
+									        <a href="https://github.com/yigitcolakoglu/Hermes/">Hermes</a>
+									        <span class="badge badge-theme">Open Source</span></h3>
+									        <p class="summary">Hermes is an open source E-Mail tracking solution that is written in Go.</p>
+									        <p><a class="more-link" href="https://github.com/yigitcolakoglu/Hermes/"><i class="fas fa-external-link-alt"></i> View on Github</a></p>
+									      </div>
+
+									      <div class="item">
+									      <h3 class="title">
+									        <a href="https://github.com/yigitcolakoglu/KulYutmaz/">KulYutmaz</a>
+									        <span class="badge badge-theme">Open Source</span></h3>
+									        <p class="summary">A project developed for the regional TUBITAK competition's programming field thart aims to create a more advanced phishing e-mail detection algorithm using website content checking and a neural network that we have trained.</p>
+									        <p><a class="more-link" href="https://github.com/yigitcolakoglu/KulYutmaz/"><i class="fas fa-external-link-alt"></i> View on Github</a></p>
+									      </div>
+
+									      <div class="item">
+									      <h3 class="title">
 									        <a href="https://github.com/yigitcolakoglu/MyCity/">Citizen View</a>
 									        <span class="badge badge-theme">Open Source</span></h3>
-									      <p class="summary">A system that we developed for the WRO Friendship Tournament 2019 that detects defects on the road and does live traffic management.</p>
-									
-									              <p><a class="more-link" href="https://github.com/yigitcolakoglu/MyCity/"><i class="fas fa-external-link-alt"></i> View on Github</a></p>
-									          </div>
+									        <p class="summary">A system that we developed for the WRO Friendship Tournament 2019 that detects defects on the road and does live traffic management.</p>
+									        <p><a class="more-link" href="https://github.com/yigitcolakoglu/MyCity/"><i class="fas fa-external-link-alt"></i> View on Github</a></p>
+									      </div>
+
 									      <div class="item">
 									      <h3 class="title">
 									        <a href="https://github.com/yigitcolakoglu/WRO_QR">Food Cloud</a>
 									        <span class="badge badge-theme">Open Source</span></h3>
-									      <p class="summary">A project that we developed for the WRO Tournament 2018 that came in first place. It is a system that ensures food safety.</p>
-									              <p><a class="more-link" href="https://github.com/yigitcolakoglu/WRO_QR"><i class="fas fa-external-link-alt"></i> View on Github</a></p>
-									          </div>
+									        <p class="summary">A project that we developed for the WRO Tournament 2018 that came in first place. It is a system that ensures food safety.</p>
+									        <p><a class="more-link" href="https://github.com/yigitcolakoglu/WRO_QR"><i class="fas fa-external-link-alt"></i> View on Github</a></p>
+									      </div>
+
+									      <div class="item">
+									      <h3 class="title">
+									        <a href="https://github.com/yigitcolakoglu/dotfiles/">Dotfiles</a>
+									        <span class="badge badge-theme">Open Source</span></h3>
+									            <p class="summary">I released my dotfiles due to heavy request from my friends. Hope you have a great time using them :D</p>
+								                <p><a class="more-link" href="https://github.com/yigitcolakoglu/dotfiles/"><i class="fas fa-external-link-alt"></i> View on Github</a></p>
+									      </div>
+
 									      <div class="item">
 									      <h3 class="title">
 									        <a href="https://siberogretmen.com">Siber Ogretmen</a>
 									      </h3>
-									      <p class="summary">An SSH based game that teaches linux commands &amp; an online blog that aims to teach  basics about Linux and Cyber Security.</p>
-									
-									       </div>
+									        <p class="summary">An SSH based game that teaches linux commands &amp; an online blog that aims to teach  basics about Linux and Cyber Security.</p>
+									        <p><a class="more-link" href="https://siberogretmen.com"><i class="fas fa-external-link-alt"></i> View the website</a></p>
+									      </div>
   
-												</div><!--//content-->  
+								</div><!--//content-->  
                     </div><!--//section-inner-->                 
                 </section><!--//section-->
                 
@@ -195,10 +159,18 @@
 														<div class="item">
 																<h3 class="title">Internship - <span class="place"><a href="#">ASELSAN</a></span> <span class="year">(2020 January - 2020 February)</span></h3>
 																<p>Worked as an intern at ASELSAN for the duration of a month.</p>
+                                                                <ul>
+                                                                    <li>Training on the basics of PCB and circuit design.</li>
+                                                                    <li>Designed and produced a simple timing circuit, learned the basics of FPGA programming and developed a simple FPGA project using VHDL.</li>
+                                                                </ul>
 														</div>
 														<div class="item">
 																<h3 class="title">Internship - <span class="place"><a href="#">DivaSoft</a></span> <span class="year">(2018 Summer)</span></h3>
 																<p>Worked as an intern in <a href="http://www.divasoft.com/">DivaSoft</a> during summer time.</p>
+                                                                <ul>
+                                                                    <li>Android application development with Java.</li>
+                                                                    <li>Created an android application that interfaces with an existing CRM software through its API which allows for easy access to the CRM interface.</li>
+                                                                </ul>
 														</div>                            
                         </div><!--//content-->  
                     </div><!--//section-inner-->                 
@@ -318,16 +290,21 @@
                         </div><!--//content-->
                     </div><!--//section-inner-->
                 </aside><!--//section-->
-                
-                <aside class="blog aside section">
-                    <div class="section-inner shadow-sm rounded">
-                        <h2 class="heading">Latest Blog Posts</h2>
-                        <div id="rss-feeds" class="content">
 
+                <aside class="list music aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Awards</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-trophy"></i> <a href="#">TUBITAK Regionals Second Place (2020)</a></li>
+                                <li><i class="fas fa-trophy"></i> <a href="https://www.tedankara.k12.tr/index.php/kampuste-yasam/haberler/item/2807-wro-dunya-robot-olimpiyatlari-nda-dunya-1-ligini-ulkemize-kazandirdik">WRO International Tournament (2017)</a></li>
+                                <li><i class="fas fa-trophy"></i> <a href="https://tedankara.k12.tr/index.php/kampuste-yasam/haberler/item/2329-first-lego-league-de-en-iyi-programlama-ve-yenilikci-cozum-odulleri-ted-ankara-koleji-nin">First Lego League Best Programmer Award (2017-2018)</a></li>
+                                <li><i class="fas fa-trophy"></i> <a href="https://www.tedankara.k12.tr/index.php/kampuste-yasam/haberler/item/2718-dunya-robot-olimpiyatlari-nda-turkiye-yi-temsil-edecegiz">National WRO Tournament 2nd place (2018)</a></li>
+                            </ul>
                         </div><!--//content-->
                     </div><!--//section-inner-->
                 </aside><!--//section-->
-                
+
                 <aside class="list music aside section">
                     <div class="section-inner shadow-sm rounded">
                         <h2 class="heading">Favourite coding music</h2>
@@ -341,7 +318,7 @@
                         </div><!--//content-->
                     </div><!--//section-inner-->
                 </aside><!--//section-->
-                
+              
                 <aside class="list conferences aside section">
                     <div class="section-inner shadow-sm rounded">
                         <h2 class="heading">Conferences</h2>
@@ -352,6 +329,17 @@
                         </div><!--//content-->
                     </div><!--//section-inner-->
                 </aside><!--//section-->
+ 
+                <aside class="blog aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Latest Blog Posts</h2>
+                        <div id="rss-feeds" class="content">
+
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+                
+ 
 			</div>
 	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
 	<script src="assets/js/phone.js"></script>
