@@ -1,1 +1,1 @@
-# yigitcolakoglu.github.io
+# yigitcolakoglu.com
