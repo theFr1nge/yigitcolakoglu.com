@@ -31,7 +31,7 @@ jQuery(document).ready(function($) {
     $("#rss-feeds").rss(
 
         //Change this to your own rss feeds
-        "https://medium.com/feed/@yigitcolakoglu",
+        "https://blog.yigitcolakoglu.com/rss.xml",
 
         {
         // how many entries do you want?
