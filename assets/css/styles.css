@@ -129,7 +129,7 @@ a.dotted-link:hover {
 }
 
 .header .btn {
-  margin-top: 60px;
+  margin-top: 30px;
   font-weight: bold;
 }
 
@@ -658,7 +658,7 @@ a.dotted-link:hover {
     text-align: center;
   }
   .header .btn {
-    margin-top: 30px;
+    margin-top: 10px;
     float: none !important;
   }
   .project-image {
