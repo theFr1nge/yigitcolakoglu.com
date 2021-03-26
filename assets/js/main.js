@@ -63,10 +63,10 @@ jQuery(document).ready(function($) {
     );
 
     /* Github Calendar - https://github.com/IonicaBizau/github-calendar */
-    new GitHubCalendar("#github-graph", "yigitcolakoglu");
+    new GitHubCalendar("#github-graph", "theFr1nge");
 
 
     /* Github Activity Feed - https://github.com/caseyscarborough/github-activity */
-    GitHubActivity.feed({ username: "yigitcolakoglu", selector: "#ghfeed" });
+    GitHubActivity.feed({ username: "theFr1nge", selector: "#ghfeed" });
 
 });
