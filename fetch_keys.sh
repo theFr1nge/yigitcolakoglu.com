@@ -59,10 +59,11 @@ unzip /tmp/out.zip -d /tmp/keys
 gpg --import /tmp/keys/gpg.key
 
 mkdir -p ~/.ssh
-
 chmod 700 ~/.ssh
-
 cp /tmp/keys/id_* ~/.ssh
+
+mkdir -p ~/.config/weechat/certs/
+cp /tmp/keys/*.pem ~/.config/weechat/certs
 
 
 
