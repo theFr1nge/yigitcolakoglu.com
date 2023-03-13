@@ -17,8 +17,7 @@ jQuery(document).ready(function($) {
 
 
     /*======= Skillset *=======*/
-
-    $('.level-bar-inner').css('width', '0');
+$('.level-bar-inner').css('width', '0');
 
 
 
@@ -30,7 +29,7 @@ jQuery(document).ready(function($) {
     $("#rss-feeds").rss(
 
         //Change this to your own rss feeds
-        "https://fr1nge.xyz/index.xml",
+        "https://yigit.run/index.xml",
 
         {
         // how many entries do you want?
