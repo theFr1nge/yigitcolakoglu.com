@@ -56,10 +56,10 @@ $('.level-bar-inner').css('width', '0');
     );
 
     /* Github Calendar - https://github.com/IonicaBizau/github-calendar */
-    new GitHubCalendar("#github-graph", "theFr1nge");
+    new GitHubCalendar("#github-graph", "arg3t");
 
 
     /* Github Activity Feed - https://github.com/caseyscarborough/github-activity */
-    GitHubActivity.feed({ username: "theFr1nge", selector: "#ghfeed" });
+    GitHubActivity.feed({ username: "arg3t", selector: "#ghfeed" });
 
 });
